@@ -1,3 +1,4 @@
+//contributed by github@mishalalshahari
 #include <iostream>
 using namespace std;
 
@@ -28,7 +29,7 @@ int main() {
 	for(int i=0;i<n;i++) cin>>arr[i];
 	cout<<"Number\t"<<"Sum of Digits\t"<<"Largest Digit"<<endl;
 	for(int i=0;i<n;i++){
-	    cout<<arr[i]<<"\t"<<sumOfDigits(arr[i])<<"\t"<<largestDigit(arr[i])<<endl;
+	    cout<<arr[i]<<"\t"<<sumOfDigits(arr[i])<<"\t"<<largestDigit(arr[i])<<endl;//manage format accordingly
 	}
 	return 0;
 }
